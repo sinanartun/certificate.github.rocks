@@ -1,0 +1,73 @@
+#DirectoryIndex index.php
+#RewriteEngine on
+#RewriteCond $1 !^(index.php|images|css|js|robots.txt|favicon.ico)
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ ./index.php?/$1 [L,QSA]
+
+
+
+
+#
+#
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+
+
+#<IfModule mod_rewrite.c>
+#    RewriteEngine On
+#      RewriteBase /
+#      ptions +FollowSymLinks
+#      RewriteEngine On
+##      RewriteCond %{SERVER_PORT} 80
+##      RewriteRule ^(.*)$ https://certificate.miuul.com/$1 [R,L]
+#      RewriteCond %{REQUEST_FILENAME} !-f
+#      RewriteCond %{REQUEST_FILENAME} !-d
+#      RewriteRule ^(.*)$ index.php?/$1 [L]
+#</IfModule>
+#
+#
+#RewriteEngine on
+##DirectoryIndex index.php
+#RewriteBase    /
+#Options +FollowSymLinks
+###RewriteCond %{HTTPS} on
+###RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+##
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+
+#
+#<IfModule mod_rewrite.c>
+#
+# Options +FollowSymLinks
+#
+# RewriteEngine On
+# #Send request via index.php
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^(.*)$ index.php/$1 [L]
+#
+#</IfModule>
+
+
+#
+##
+#  RewriteEngine On
+##  # !IMPORTANT! Set your RewriteBase here and don't forget trailing and leading
+##  #  slashes.
+##  # If your page resides at
+##  #  http://www.example.com/mypage/test1
+##  # then use
+##  # RewriteBase /mypage/test1/
+#  RewriteBase /
+#  RewriteCond %{REQUEST_FILENAME} !-f
+#  RewriteCond %{REQUEST_FILENAME} !-d
+#  RewriteRule ^(.*)$ index.php?/$1 [L]
+##
+##

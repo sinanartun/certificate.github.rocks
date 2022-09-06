@@ -37,7 +37,10 @@ class Home_model extends CI_Model
     $this->db->from(  '___courses c');
     $this->db->join( '___users u', 'c.user_id=u.id', 'left');
   
-    $res = $this->db->limit(20)->where('c.active',1)->order_by('order')->get()->result();
+//    $res = $this->db->limit(20)->where('c.active',1)
+//      ->order_by('order')
+//      ->get()->result();
+    $res = $this->db->limit(20)->where('c.active',1)->get()->result();
     $this->db->cache_off();
     return $res;
   }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8a7b6424-36e8-4bc8-947e-f3e57ad9ed35" name="certificate.github.rocks" url="http://certificate.github.rocks">
+        <fileTransfer rootFolder="/var/www/html" accessType="SFTP" host="54.93.94.66" port="22" sshConfigId="e9c3ea77-a5d8-4e66-a911-7bec0a97b5f9" sshConfig="ec2-user@54.93.94.66:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

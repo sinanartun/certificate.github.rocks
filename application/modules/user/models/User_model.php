@@ -35,7 +35,7 @@
       $this->db->join('___users u', 'c.user_id=u.id', 'left');
       $res = $this->db
         ->limit(20)
-        ->order_by('order')
+//        ->order_by('order')
         ->where('c.active',1)
         ->get()->result();
       $this->db->cache_off();
@@ -44,7 +44,7 @@
     
     public function get_user_courses_codes($my_courses = NULL)
     {
-      if (NULL === $my_courses || empty($my_courses)) {
+      if (empty($my_courses)) {
         return [];
       }
       $res = [];

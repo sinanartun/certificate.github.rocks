@@ -379,7 +379,9 @@
               <? if (!empty($courses)) foreach($courses as $course):?>
 
                 <div class="col-xl-1 user_card" data-container="body" data-toggle="kt-popover" data-placement="right" data-html="true" data-original-title="<?=$course->title?>"
-                     data-content="<div class='pull-left pl-0'><i class='flaticon2-arrow kt-font-brand'></i>&nbsp;Ders: <?=$course->total_lectures?> </div>
+                     data-content="<div class='pull-left pl-0'><i class='flaticon2-arrow kt-font-brand'></i>&nbsp;Ders:
+<!--                     --><?//=//$course->total_lectures;?>
+                      </div>
                      <div class='pull-left ml-2'><i class='flaticon2-crisp-icons-1 kt-font-brand'></i>&nbsp;Süre: <?=$course->course_duration?> </div><br><br><?=character_limiter($course->sub_title, 163);?>">
 
                   <!--Begin::Portlet-->

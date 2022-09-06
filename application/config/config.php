@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://traiive.com/';
+$config['base_url'] = 'http://certificate.github.rocks/';
 
 /*
 |--------------------------------------------------------------------------
@@ -380,10 +380,10 @@ $config['encryption_key'] = '';
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'traiive_';
 $config['sess_expiration'] = 86400;
-$config['sess_save_path'] = '/var/www/session';
-$config['sess_match_ip'] = TRUE;
+$config['sess_save_path'] = '/var/www/html/session';
+$config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 86400;
-$config['sess_regenerate_destroy'] = TRUE;
+$config['sess_regenerate_destroy'] = FALSE;
 
 /*
 |--------------------------------------------------------------------------

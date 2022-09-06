@@ -52,7 +52,7 @@
   $route['default_controller'] = 'home';
   $route['404_override'] = '';
   $route['translate_uri_dashes'] = FALSE;
-
+$route['login'] = 'home/home/login';
 // admin start
   $route['aajax/users_table'] = 'admin/aajax/users_table';
   $route['aajax/groups_table'] = 'admin/aajax/groups_table';
@@ -197,7 +197,7 @@
   
   $route['index'] = 'home/home/index';
   //$route['/index'] = 'home/home/index';
-  $route['login'] = 'home/home/login';
+
   
   $route['ajax/login'] = 'home/hajax/login';
   
@@ -208,12 +208,12 @@
   $route['reset_password/(:any)'] = 'home/home/reset_password/$1';
   
   
-  $route['(:any)/(:any)/(:any)/(:any)/(:any)/'] = 'home/home/s404';
-  $route['(:any)/(:any)/(:any)/(:any)/(:any)'] = 'home/home/s404';
-  $route['(:any)/(:any)/(:any)/(:any)/'] = 'home/home/s404';
-  $route['(:any)/(:any)/(:any)/(:any)'] = 'home/home/s404';
-  $route['(:any)/(:any)/(:any)'] = 'home/home/s404';
-  $route['(:any)/(:any)/(:any)/'] = 'home/home/s404';
-  $route['(:any)/(:any)'] = 'home/home/s404';
-  $route['(:any)/'] = 'home/home/s404';
-  $route['(:any)'] = 'home/home/s404';
+//  $route['(:any)/(:any)/(:any)/(:any)/(:any)/'] = 'home/home/s404';
+//  $route['(:any)/(:any)/(:any)/(:any)/(:any)'] = 'home/home/s404';
+//  $route['(:any)/(:any)/(:any)/(:any)/'] = 'home/home/s404';
+//  $route['(:any)/(:any)/(:any)/(:any)'] = 'home/home/s404';
+//  $route['(:any)/(:any)/(:any)'] = 'home/home/s404';
+//  $route['(:any)/(:any)/(:any)/'] = 'home/home/s404';
+//  $route['(:any)/(:any)'] = 'home/home/s404';
+//  $route['(:any)/'] = 'home/home/s404';
+//  $route['(:any)'] = 'home/home/s404';

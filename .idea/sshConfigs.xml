@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="54.93.94.66" id="e9c3ea77-a5d8-4e66-a911-7bec0a97b5f9" keyPath="$USER_HOME$/Desktop/ssh/certificate.pem" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
