@@ -1,0 +1,258 @@
+•	Aşağıdakilerden hangisi doğrusal regresyon modellerinden biri değildir?
+
+	•	Çoklu Lineer Regresyon
+	•	Ridge Regresyon
+	•	Lasso Regresyon
+	•	Logaritmik Regresyon
+	•	Elastic Net Regresyonu
+
+Doğru Cevap: d  MO_201_01_GIRIS 
+	•	Bir adet bağımsız ve bir adet bağımlı değişkene sahip olan doğrusal regresyon modeline … denir.   Boşluğa hangisi gelmelidir? 
+	•	Çoklu Doğrusal Regresyon
+	•	Ridge Regresyon
+	•	Logaritmik Regresyon
+	•	Tekli Doğrusal Regresyon
+	•	Basit Doğrusal Regresyon
+
+Doğru Cevap: e  MO_201_02_BASIT_DOGRUSAL_REGRESYON  
+    • Basit doğrusal regresyon modelinin tahmin fonksiyonu aşağıdakilerden hangisidir? 
+	•	 = b0
+	•	 = b1 . x1
+	•	 = b0 + b1 * x1
+	•	 = b0 + b1 * x1 + b2 * x2
+	•	 = bn . xn
+
+Doğru Cevap: c  MO_201_02_BASIT_DOGRUSAL_REGRESYON 
+	•	Bir basit doğrusal regresyon probleminde modeli kurma adımında temel amaç teknik olarak hangisidir? 
+	•	Denklemdeki y şapka değerlerini bulmak
+	•	x0 değerini bulmak
+	•	b0 sabit sayısını bulmak
+	•	b0 ve b1 katsayılarını bulmak
+	•	Katsayıyı bulmak 
+Doğru Cevap: d  MO_201_02_BASIT_DOGRUSAL_REGRESYON 
+	•	Basit doğrusal regresyon anakitle modeli:  Y = βo + β1 * X + Ɛ  I.  βo: Doğrunun y eksenini kestiği nokta II. β1: Doğrunun eğimi III.Y: Bağımsız değişken IV. Ɛ: Hata terimi V. X: Bağımlı değişken  Verilen açıklamalardan hangileri doğrudur?
+
+	•	I,II,III
+	•	I,II,III,IV
+	•	I,II,III,IV,V
+	•	I,II,IV
+	•	I,II,V
+
+Doğru Cevap: d  MO_201_02_BASIT_DOGRUSAL_REGRESYON 
+	•	Seçeneklerde verilen kodlardan hangisi python üzerinde Doğrusal Regresyon modülünü çağırmaya yarar?
+
+	•	from sklearn.linear_model import LinearRegression
+	•	import sklearn.linear_model from LinearRegression
+	•	from sklearn.linear_model import Linear_Regression
+	•	import sklearn.linear_model from Linear_Regression
+	•	from sklearn.LinearModel import linear_regression 
+Doğru Cevap: a
+ MO_201_03_BASIT_DOGRUSAL_REGRESYON_MODEL 
+	•	I.   reg = LinearRegression() II.  model = reg.fit(X, y) III. print(dir(model))  Yukarıda bazı python kodları verilmiştir. Gerekli modüllerin kurulduğu varsayımı altında III. satırdaki kod ile ne amaçlanmıştır?
+
+	•	Modelin tahmin başarısı ölçmek
+	•	r^2 değerini bulmak
+	•	model nesnesine ait kullanılabilir özellikleri görmek
+	•	model nesnesine ait katsayıyı yazdırmak
+	•	model nesnesine ait sabit sayıyı yazdırmak 
+Doğru Cevap: c  MO_201_03_BASIT_DOGRUSAL_REGRESYON_MODEL
+
+	•	I.   reg = LinearRegression() II.  model = reg.fit(X, y) III. print(dir(model))  Yukarıda bazı python kodları verilmiştir. Gerekli modüllerin kurulduğu varsayımı altında II. satırdaki kod ile ne yapılmıştır? 
+	•	X değerleri reg nesnesi üzerinden tahmin edilmiştir
+	•	reg nesnesi üzerinden y değerleri tahmin edilmiştir
+	•	model kurulmuştur
+	•	model nesnesi ile reg nesnesi tahmin edilmiştir
+	•	reg nesnesi ile model başarısı test edilmiştir 
+Doğru Cevap: c  MO_201_03_BASIT_DOGRUSAL_REGRESYON_MODEL 
+	•	Bağımlı değişkenlerdeki değişikliğin, bağımsız değişkenlerce açıklama yüzdesidir.  Yukarda tanımı verilen parametre hangisidir? 
+	•	Epsilon
+	•	y şapka
+	•	intercept_
+	•	r kare
+	•	coef_ 
+Doğru Cevap: d  MO_201_03_BASIT_DOGRUSAL_REGRESYON_MODEL
+
+	•	Seçeneklerden hangisi ile bir regresyon modeli üzerinden tahmin işlemi yapılmıştır?  model: python-sklearn kütüphanesinden bir (LinearRegression) doğrusal regresyon modelini, new_data: tahmin edilecek olan veriyi ifade ediyor. İlgili modüllerin kurulmuş olduğunu varsayınız.
+
+	•	model.predict(new_data)
+	•	new_data.predict(model)
+	•	model.fit(new_data)
+	•	new_data.fit(model)
+	•	predict.model(new_data)
+
+Doğru Cevap: a  MO_201_04_BASIT_DOGRUSAL_REGRESYON_TAHMIN 
+	•	Makine öğrenmesi literatüründe bulunan ''Hata Kareler Ortalaması'' ve ''Hata Kareler Ortalamasının Karekökü'' ifadelerinin kısaltılmış gösterimi sırasıyla hangisidir? 
+	•	RSME-SME
+	•	SME-RSME
+	•	RMSE-MSE
+	•	MSE-RMSE
+	•	SRME-RME 
+Doğru Cevap: d  MO_201_05_ARTIKLAR 
+	•	Makine öğrenmesinde ''hata'' veya ''artık'' diye ifade edilen kavram ile kastedilen nedir? 
+	•	Model denklemi çözülürken oluşabilecek hatalar
+	•	Model denklemi çözülürken ondalık sayıların virgülden sonraki kısmında ortaya çıkan küçük hesap hataları
+	•	Modelin yüzdelik üzerinden belirtilen güven derecesinden kalan ihtimal
+	•	Tahmin edilen değerler ile gerçek değerler arasındaki fark
+	•	İstatistiksel bir kavram olarak rastgelelikten kaynaklanan hata
+
+Doğru Cevap: d  MO_201_05_ARTIKLAR 
+	•	Çoklu doğrusal regresyon ile basit doğrusal regresyon arasında temel olarak ne farklılık vardır?
+
+	•	Bağımlı değişkenler değişiktir
+	•	Birisi sınıflandırma birisi regresyon problemidir
+	•	Bağımlı değişkenlerin ölçeği farklıdır
+	•	Bağımsız değişken olmamasıdır
+	•	Basit doğrusal regresyon modelinde 1 çoklu doğrusal regresyon modellerinde 1’den fazla bağımsız değişken vardır
+Doğru Cevap: e  MO_201_06_COKLU_DOGRUSAL_REGRESYON
+
+	•	Aşağıdakilerden hangisi çoklu doğrusal regresyon varsayımlarından biri değildir? 
+	•	Hatalar normal dağılır
+	•	Değişkenler ile hata terimi arasında ilişki vardır
+	•	Herbir gözlem için hata terimleri varyansları sabittir
+	•	Bağımlı değişkenler arasında çoklu doğrusal ilişki problemi yoktur
+	•	Hatalar birbirinden bağımsızdır ve aralarında otokorelasyon yoktur
+
+Doğru Cevap: b  MO_201_06_COKLU_DOGRUSAL_REGRESYON
+
+	•	import statsmodels.api as sm lm = sm.OLS(y, X) model = lm.fit() model.summary()  Yukarıda Jupiter notebook üzerinede python-statsmodel kütüphanesi kullanılarak çoklu doğrusal regresyon modellemesi yapılmıştır. Buna göre model.summary() kodunun çıktısında aşağıdakilerden hangisi bulunmaz?
+
+	•	r^2 değeri
+	•	Düzeltilmiş r^2 değeri
+	•	Model katsayıları
+	•	P-value değeri
+	•	RMSE değeri 
+Doğru Cevap: e  MO_201_07_COKLU_DOGRUSAL_REGRESYON_MODEL
+
+	•	Aşağıdaki kodlardan hangisi sklearn kütüphanesi üzerinden hata kareler ortalamasını bulmak için kullanılan koddur?
+
+	•	from sklearn.metrics import mean_squared_error
+	•	from sklearn.stats import MeanSquaredError
+	•	from sklearn.metrics import sqrt_mean_squared_error
+	•	from sklearn.stats import sqrt_mean_squared_error
+	•	from sklearn.stats import MeanSquaredError 
+Doğru Cevap: a  MO_201_08_COKLU_DOGRUSAL_REGRESYON_TAHMIN
+
+	•	Çoklu doğrusal regresyon modeli için model tuning işlemi yerine model doğrulama işlemi yapılır. Bunu yaparken seçeneklerde belirtilen hangi yöntemler kullanılabilir?
+
+	•	Sınama seti yöntemi ve k katlı çapraz doğrulama yöntemi
+	•	Sınama seti yöntemi ve hiperparametre optimizasyonu
+	•	K katlı çapraz doğrulama yöntemi ve hiperparametre optimizasyonu
+	•	Sınama seti yöntemi ve search grid yöntemi
+	•	Search grid yöntemi ve hiperparametre optimizasyonu
+
+Doğru Cevap: a  MO_201_09_COKLU_DOGRUSAL_REGRESYON_MODEL_TUNING 
+	•	Çoklu doğrusal regresyon modellemesi yaparken eğitim hatasını daha doğru değerlendirmek için cross-validation yöntemi kullanılır. Verilen seçeneklerden hangisinde (sklearn kütüphanesi üzerinden) bu işlemi yapan kod verilmiştir? (Gerekli modülün kurulduğunu varsayınız)
+
+	•	CrossValScore(model, X_train, y_train, scoring = "neg_mean_squared_error")
+	•	cross_val_score(model, X_train, y_train, scoring = "neg_mean_squared_error")
+	•	cross_val_score(X_train, y_train, model, scoring = "neg_mean_squared_error")
+	•	CrossValScore(model, X, y, scoring = "neg_mean_squared_error")
+	•	CrossValScore(X_train, y_train, model, scoring = "neg_mean_squared_error")
+
+Doğru Cevap: b  MO_201_09_COKLU_DOGRUSAL_REGRESYON_MODEL_TUNING 
+	•	GridSearchCV fonksiyonunda çapraz doğrulamanın kaç katlı olacağını belirten argüman aşağıdakilerden hangisidir? 
+	•	CV
+	•	cv
+	•	CW
+	•	cw
+	•	C-V
+
+Doğru Cevap: b  MO_201_09_COKLU_DOGRUSAL_REGRESYON_MODEL_TUNING 
+	•	Ridge regresyonunun katsayı bulma işleminde çoklu doğrusal regresyondan farkı nedir?
+
+	•	Aynı işlemi daha hızlı yapar
+	•	Denklemdeki sabit katsayını daha büyük tutar
+	•	Denklemdeki katsayılara bir ceza uygular
+	•	Bağımsız değişkeni sabit bir sayı ile çarparak bir ceza uygular
+	•	Ridge regresyonu daha iyi tahminde bulunur 
+Doğru Cevap: c  MO_201_10_RIDGE_REGRESYON 
+	•	Hangisi Ridge regresyonunun özelliklerinden biri değildir?
+
+	•	Aşırı öğrenmeye karşı dirençli değildir
+	•	Yanlıdır fakat varyansı düşüktür
+	•	Çok fazla parametresi olduğundan EKK’ya göre daha iyidir
+	•	Çok boyutluluk lanetine karşı çözüm sunar
+	•	Çoklu doğrusal bağlantı problemi olduğunda etkilidir 
+Doğru Cevap: a  MO_201_10_RIDGE_REGRESYON 
+	•	Ridge regresyon modellemesi yapılırken lambda (alpha) değerinin iyi seçilmesi önemlidir. Bu seçimi yaparken en çok kullanılan yöntem hangisidir?
+
+	•	Cross-Validation yöntemi
+	•	Random atama yöntemi
+	•	Normal dağılımlı değişken deneme yöntemi
+	•	Nacka-Island yöntemi
+	•	KNN yaklaşımı
+
+Doğru Cevap: a  MO_201_10_RIDGE_REGRESYON
+
+	•	ridge_model = Ridge(alpha = 5).fit(X_train, y_train)  Yukarıda verilen kod ile eşdeğer olan kod hangisidir? 
+	•	ridge = Ridge(alpha = 5) ridge.fit(X_train, y_train)
+	•	ridge_model = Ridge(alpha = 2) ridge_model.fit(X_train, y_train)
+	•	ridge_model = Ridge(alpha = 5) ridge.fit(X_train, y_train)
+	•	ridge= Ridge(alpha = 5) Ridge.fit(X_train, y_train)
+	•	ridge_model = Ridge() ridge_model.fit(X_train, y_train, alpha = 5)
+
+Doğru Cevap: a  MO_201_11_RIDGE_REGRESYON_MODEL 
+	•	Bir makine öğrenmesi modelinde train hatası, test hatasına göre çok düşük çıktığında, bu durumu nasıl açıklarız?
+
+	•	Model veri setinin train kısmını ezberlemiştir (Overfitting)
+	•	Model veri setinin train kısmını ezberlemiştir (Underfitting)
+	•	Model veri setinin test kısmını ezberlemiştir (Overfitting)
+	•	Model veri setinin test kısmını ezberlemiştir (Underfitting)
+	•	Model tüm veri setinini ezberlemiştir (Underfitting)
+
+Doğru Cevap: a  MO_201_14_LASSO_REGRESYON 
+	•	Lasso regresyonu ile Ridge regresyonunun karşılaştırılması ile ilgili verilenlerden hangisi yanlıştır?
+
+	•	Ridge regresyonuna göre genel olarak daha az değişken seçilir
+	•	Ridge regresyonunda katsayılar sıfır olmaz
+	•	Lasso regresyonunda katsayılar sıfır olabilir
+	•	Yaklaşım olarak aralarında bir fark yoktur
+	•	Lasso regresyonu Ridge regresyonundan daha başarılıdır
+
+Doğru Cevap: e  MO_201_14_LASSO_REGRESYON
+
+	•	Lasso regresyon modeli kurulurken optimum lambda değerine erişmek için farklı lambda (alpha) değerlerine karşılık katsayıların durumu ve ortaya çıkan hatalar incelenir. Bunun için denemek üzere ihtiyacımız olan lambda (alpha) setini oluşturmamıza yardımcı olabilecek fonksiyonlardan birisi aşağıdakilerden hangisi olabilir? (İlgili modüllerin yüklendiğini varsayınız)
+
+	•	pd.linspace()
+	•	np.linspace()
+	•	pd.lin_space()
+	•	np.lin_space()
+	•	linspace()
+
+Doğru Cevap: b  MO_201_15_LASSO_REGRESYON_MODEL 
+	•	Seçeneklerde regresyon modellemeleri için bazı yorumlar verilmiştir. Hangisi genel olarak doğrudur? 
+	•	En başarılı olan Lasso regresyonudur
+	•	Problemden probleme algoritmaların birbirlerine göre başarıları değişebilir
+	•	Lasso regresyonu parametre sayısı Ridge regresyonuna göre daha fazladır
+	•	Tarihsel olarak daha sonra bulunan/geliştirilen modeller daha başarılıdır
+	•	Her zaman daha fazla veri daha fazla başarı sağlar 
+Doğru Cevap: b  MO_201_16_LASSO_REGRESYON_TAHMIN 
+	•	Yöntem/yaklaşım olarak … regresyonu, … ve … regresyonlarını birleştirir.  Boşluklara sırasıyla hangisi gelmelidir?
+
+	•	Lasso - Ridge - Elastic Net
+	•	Ridge - Lasso - Basit Doğrusal
+	•	Ridge - Lasso - Elastic Net
+	•	Elastic Net - Lasso - Ridge
+	•	Lasso - Basit Doğrusal - Ridge
+
+Doğru Cevap: d  MO_201_18_ELASTICNET_REGRESYON 
+	•	ElasticNet regresyonu modeli için kullanılan çapraz doğrulama fonksiyonu aşağıdakilerden hangisidir?
+
+	•	np.elastic_net_cv()
+	•	np.ElasticNetCV()
+	•	ElasticNetCV()
+	•	pd.ElasticNetCV()
+	•	pd.elastic_net_cv()
+
+Doğru Cevap: c  MO_201_19_ELASTICNET_REGRESYON_MODEL_TAHMIN 
+	•	Kurulan modeller için tahmin işlemi yapmak için kullanılan fonksiyon hangisidir?
+
+	•	fit()
+	•	predict()
+	•	tune()
+	•	y_pred()
+	•	Model() 
+Doğru Cevap: b  MO_201_19_ELASTICNET_REGRESYON_MODEL_TAHMIN   
+  
+
+

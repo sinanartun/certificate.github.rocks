@@ -1,0 +1,263 @@
+Makine Öğrenmesi 401 Bölüm Soruları
+
+
+	•	Aşağıdakilerden hangisi sınıflandırma modellerinden biri değildir?
+
+	•	Lojistik Regresyon
+	•	Çoklu Doğrusal Regresyon Modeli
+	•	Destek Vektör Makineleri
+	•	CART
+	•	XGBoost
+
+Doğru Cevap: b  MO_401_01_GIRIS 
+	•	Çoklu doğrusal regresyonun ufak farklılıklara tabi tutulup sınıflandırma problemlerine uyarlanmış bir versiyonudur.  Yukarda bir özelliği verilen model hangisidir? 
+	•	Basit Doğrusal Regresyon
+	•	Destek Vektör Makineleri
+	•	Lojistik Regresyon
+	•	Random Forests
+	•	Gradient Boosting Machines
+
+Doğru Cevap: c  MO_401_02_LOJISTIK_REGRESYON  
+
+    •  gbm_model = GradientBoostingClassifier().fit(X_train, y_train)  	?gbm_model  	Yukarıda verilen kodlar, ilgili kütüphaneleri yüklenip Jupiter Notebook üzerinde 		ayrı hücrelere yazılıp çalıştırılıyor. Kod çıktısında hangi bilgi bulunmaz? 
+	•	İlgili fonksiyonun hangi dizinde yer aldığı
+	•	Parametreler ve açıklamaları
+	•	Tip bilgisi
+	•	Model hakkında not
+	•	Optimum parametre değerleri
+
+Doğru Cevap: e  MO_401_21_GRADIENT_BOOSTING_MACHINES_MODEL_TAHMIN 
+	•	loj_model.intercept_  Lojistik regresyon modelini ifade eden "loj_model" nesnesi ile kullanılmış olan "intercept_" metodu hangi bilgiyi sunmaktadır? 
+	•	Modelin tüm parametre adları
+	•	Modelin tahmin başarısının yüzdeliği
+	•	Model denkleminin katsayıları
+	•	Model denkleminin sabit sayısı
+	•	Modelin eğitilip eğitilmediği bilgisi 
+Doğru Cevap: d  MO_401_03_LOJISTIK_REGRESYON_MODEL_TAHMIN 
+	•	X_train, X_test, y_train, y_test = train_test_split(X,                                                      y,                                                      test_size=0.20,                                                      random_state=2)  Verilen kodda belirtilen X verisi 500 gözlemden oluşmaktadır. Buna göre y_test verisi kaç gözleme sahiptir?
+
+	•	50
+	•	100
+	•	200
+	•	250
+	•	500
+
+Doğru Cevap: b  MO_401_04_LOJISTIK_REGRESYON_MODEL_TUNING 
+	•	Tahmin edilecek gözleme en yakın k adet gözlem ele alınır. Bu gözlemlerin y (bağımlı değişken) değerlerine bakılır. Bu y değerlerinden en çok tekrar eden sınıf değeri tahmin sonucu olarak seçilir.  Yukarıda çalışma prensibi ifade edilen algoritma aşağıdakilerden hangisidir?
+
+	•	Lojistik Regresyon
+	•	Destek Vektör Makineleri
+	•	K-En Yakın Komşu
+	•	CART
+	•	XGBoost 
+Doğru Cevap: c
+ MO_401_05_K_EN_YAKIN_KOMSU 
+	•	Aynı veri seti farklı iki bilgisayar üzerinde modelleme yapmak üzere ele alınıyor. Test-Train ayrımının iki bilgisayarda da aynı gözlemlerden oluşması için ne yapılması gerekir?
+
+	•	Eşdeğer kodlar yerine tamamen aynı kodlar kullanılmalıdır
+	•	Kodların sıralaması aynı olmalıdır
+	•	Tüm işlemler aynı anda yapılmalıdır
+	•	Train-Test ayırma fonksiyonunun random_state argümanına ''positive'' yazılmalıdır
+	•	Train-Test ayırma fonksiyonunun random_state argümanına aynı sayı yazılmalıdır 
+Doğru Cevap: e  MO_401_06_K_EN_YAKIN_KOMSU_MODEL_TAHMIN
+
+	•	np.arange(1,50)  Yukarıda numpy kütüphanesine ait olan bir fonksiyon verilmiştir. Bu kod ile oluşan nesnenin veri tipi, ilk elemanı ve son elemanı sırasıyla hangisidir? 
+	•	numpy.ndarray - 1 - 50
+	•	numpy.ndarray - 1 - 49
+	•	numpy.ndarray - 0 - 50
+	•	numpy.ndarray - 0 - 49
+	•	array - 1 - 50 
+Doğru Cevap: b  MO_401_07_K_EN_YAKIN_KOMSU_MODEL_TUNING 
+	•	Amacı iki sınıf arasındaki ayırımın optimum olmasını sağlayacak hiper-düzlemi bulmak olan modelleme tekniği aşağıdakilerden hangisidir? 
+	•	Karar Destek Vektörleri
+	•	K-En Yakın Komşu
+	•	Destek Vektör Makineleri
+	•	Lojistik Regresyon
+	•	Gradient Boosting Machines 
+Doğru Cevap: c  MO_401_08_DESTEK_VEKTOR_MAKINELERI
+
+	•	Sınıflandırma problemleri için Destek Vektör Makineleri modelini kullanmak adına hangi kod çalıştırılmalıdır?
+
+	•	from sklearn import SVC
+	•	from svc import SVM
+	•	from sklearn.svm import SVC
+	•	import SVC
+	•	from sklearn.svm import SVM
+
+Doğru Cevap: c  MO_401_09_DESTEK_VEKTOR_MAKINELERI_MODEL_TAHMIN 
+	•	svm_params = {"C": np.arange(1,5), "kernel": ["linear","rbf"]}  Yukarıda SVM modelini tune etmek için oluşturulmuş hiper parametre seti verilmiştir. Buradaki ''C'' parametresi neyi ifade eder? 
+	•	Kolon sayıları
+	•	Count parametresi
+	•	Ceza parametresi
+	•	Cross Validation sayıları
+	•	Clarance parametresi 
+Doğru Cevap: c  MO_401_10_DESTEK_VEKTOR_MAKINELERI_MODEL_TUNING 
+	•	Yapay sinir ağları modellemesinde sınıflandırma yaparken regresyondan farklı olarak fonksiyonel yapıda aşağıdakilerden hangisinde değişiklik olur? 
+	•	Aktivasyon fonksiyonu
+	•	Katman yapısı
+	•	Hücrelerin birbiri ile bağlantısı
+	•	Fonksiyona ait argüman sayısı çok daha fazladır
+	•	Başarı nazaran oldukça düşer
+
+Doğru Cevap: a  MO_401_11_YAPAY_SINIR_AGLARI 
+	•	Aşağıdakilerden hangisi Yapay Sinir Ağları modellemesi için kullanılan isimlerden biri değildir?
+
+	•	Deep Learning
+	•	Çok Katmanlı Algılayıcılar
+	•	TensorFlow
+	•	Derin Öğrenme
+	•	Neural Network
+
+Doğru Cevap: c  MO_401_12_YAPAY_SINIR_AGLARI_MODEL_TAHMIN
+
+	•	Yapay Sinir Ağları modellemesi yapılırken, ağırlık optimizasyonu için ön tanımlı olarak büyük veri setlerinde iyi çalıştığı bilinen "adam" algoritması kullanılır.  Aşağıdaki ifadelerden hangisi küçük veri setlerinde ağırlık optimizasyonu için kullanılabilecek olan yöntemdir. 
+	•	sgd
+	•	lbfgs
+	•	diederik
+	•	jimmy
+	•	logistic
+
+Doğru Cevap: b  MO_401_12_YAPAY_SINIR_AGLARI_MODEL_TUNING
+
+	•	I. Amacı veri seti içerisindeki karmaşık yapıları basit karar yapılarına dönüştürmek  II. Heterojen veri setleri, homojen alt guruplara ayrılır III. Breiman 1984’de bulmuştur  Yukarıda özellikleri verilen model hangisidir?
+
+	•	Yapay Sinir Ağları
+	•	Destek Vektör Makineleri
+	•	CART
+	•	K-En Yakın Komşu
+	•	Random Forests
+
+Doğru Cevap: c  MO_401_14_CART
+
+	•	Aşağıdakilerden hangisi 'ilkel model' olarak düşünülebilir? 
+	•	Tek değişkenli model
+	•	Tek parametreli model
+	•	Modelin eğitilmemiş hali
+	•	Tune edilmesi gereken hiper parametreleri olduğu halde tune edilmemiş model
+	•	Model nesnesine verilen ad 
+Doğru Cevap: d  MO_401_15_CART_MODEL_TAHMIN
+
+	•	CART modeli için ayarlanması gereken hiper parametrelerden birisi olan "min_samples_split" hiper parametresi hangi değeri alamaz?
+
+	•	1
+	•	2
+	•	10
+	•	100
+	•	501
+
+Doğru Cevap: a  MO_401_16_CART_MODEL_TUNING 
+	•	Temeli birden çok karar ağacının ürettiği tahminlerin bir araya getirilerek değerlendirilmesine dayanan modelleme hangisidir?
+
+	•	Destek Vektör Makineleri
+	•	Yapay Sinir Ağları
+	•	K-En Yakın Komşu
+	•	Random Forests
+	•	Doğrusal Regresyon Modeli
+
+Doğru Cevap: d  MO_401_17_RANDOM_FORESTS 
+	•	Random Forests sınıflandırma modeli için kullanılan fonksiyon hangisidir?  
+	•	Random_Forest_Classifier()
+	•	random_forest_classifier()
+	•	RandomForestClassifier()
+	•	Random_Forest_C()
+	•	RandomForestClassification()
+
+Doğru Cevap: c  MO_401_18_RANDOM_FORESTS_MODEL_TAHMIN 
+	•	Aşağıdakilerden hangisi Random Forests sınıflandırma modelinin ağaç sayısını ifade eden hiper parametresidir?
+
+	•	max_features
+	•	n_estimators
+	•	min_samples_split
+	•	bootstrap
+	•	max_leaf_nodes 
+Doğru Cevap: b  MO_401_19_RANDOM_FORESTS_MODEL_TUNING 
+	•	 I. Adaboost’un sınıflandırma ve regresyon problemlerine kolayca uyarlanabilen genelleştirilmiş versiyonudur II. Artıklar üzerine tek bir tahminsel model formunda olan modeller serisi kurulur III. Friedman 2001’de ortaya koymuştur  Yukarıda özellikleri verilen model hangisidir?
+
+	•	Light GBM
+	•	Gradient Boosting Machines
+	•	XGBoost
+	•	CART
+	•	Random Forests 
+Doğru Cevap: b  MO_401_20_GRADIENT_BOOSTING_MACHINES 
+	•	Aşağıdakilerden hangisi Gradient Boosting Machines sınıflandırma modeli tune edilirken kullanılan hiper parametrelerden biri değildir?
+
+	•	n_estimators
+	•	subsample
+	•	max_depth
+	•	learning_rate
+	•	best_params_
+
+Doğru Cevap: e  MO_401_22_GRADIENT_BOOSTING_MACHINES_MODEL_TUNING
+
+	•	Hangisi XGBoost modelinin özelliklerinden biri değildir? 
+	•	R, Python, Hadoop, Scala ile kullanılabilir
+	•	Ölçeklenebilirdir
+	•	Hızlıdır
+	•	CART modelinin geliştirilmiş versiyonudur
+	•	Tahmin başarısı yüksektir
+
+Doğru Cevap: d  MO_401_23_XGBOOST 
+	•	Jupiter notebook üzerinde XGBoost modellemesi yapabilmek için dış kaynaktan ilgili kütüphanenin indirilmesi gereklidir. Hangisi bu işlemi yapan koddur?
+
+	•	from sklearn install xgboost
+	•	install xgboost
+	•	!pip install xgboost
+	•	!pip install XGBoost
+	•	install XGBoost
+
+Doğru Cevap: d  MO_401_24_XGBOOST_MODEL_TAHMIN 
+	•	XGBoost sınıflandırma modeli için kullanılan fonksiyon hangisidir?
+
+	•	XGBoostClassifier
+	•	xgboost_classifier
+	•	XGBoostClassification
+	•	xGBClassifier
+	•	XGBClassifier
+
+Doğru Cevap: e  MO_401_25_XGBOOST_MODEL_TUNING
+
+	•	LightGBM hangi modelin eğitim süresi ve tahmin performansını artırmaya yönelik geliştirilen bir modeldir?
+
+	•	CatBoost
+	•	Random Forests
+	•	XGBoost
+	•	Gradient Boosting Machines
+	•	CART
+
+Doğru Cevap: c  MO_401_26_LIGHT_GBM 
+	•	Aşağıdakilerden hangisi LightGBM model nesnesini import işlemini yapan koddur? 
+	•	from lightGbm import LGBMClassifier
+	•	from light_gbm import LGBM_Classifier
+	•	from LightGbm import LGBM_Classifier
+	•	from lightgbm import LGBMClassification
+	•	from lightGBM import LGBMClassificaation 
+Doğru Cevap: d  MO_401_27_LIGHTGBM_MODEL_TAHMIN 
+	•	Verilen parametre değerlerinin olası tüm kombinasyonlarını deneyerek en iyi skoru veren parametreyi seçen fonksiyondur.  Yukarıda açıklaması verilen ve model tune etme işleminde kullanılan fonksiyon hangisidir?
+
+	•	GridSearchCV
+	•	CrossValidation
+	•	MeanAll
+	•	SearchAll
+	•	5KCV
+
+Doğru Cevap: a  MO_401_28_LIGHTGBM_MODEL_TUNING 
+	•	Hangi model tarih olarak en son geliştirilmiştir?
+
+	•	CART
+	•	XGBoost
+	•	Random Forests
+	•	Yapay Sinir Ağları
+	•	CatBoost
+
+Doğru Cevap: e  MO_401_29_CATBOOST 
+	•	accuracy_score(data_test, data_pred)  Yukarıda verilen sklearn.metrics kütüphanesine ait olan fonksiyon hangi bilgiyi verir?
+
+	•	Model başarı skorunu verir
+	•	Tune edilmemiş modelin, tune edilebilirlik skorunu verir
+	•	Girilen iki veri kullanılarak model tekrar eğitilir
+	•	Tune edilmemiş modelin, tune edilmiş hali arasındaki açıklanabilirlik yüzdesini verir
+	•	Denenen hiperparametrelerin arasındaki skoru verir 
+Doğru Cevap: a  MO_401_30_CATBOOST_MODEL_TAHMIN   
+  
+
+

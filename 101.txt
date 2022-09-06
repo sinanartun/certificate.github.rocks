@@ -1,0 +1,264 @@
+	•	Bilgisayarların insanlara benzer şekilde öğrenmesini sağlamak maksadıyla çeşitli algoritma ve tekniklerin geliştirilmesi için çalışılan bilimsel çalışma alanına … denir. Boşluğa hangisi gelmelidir?
+
+	•	Biyomakine
+	•	Makine öğrenimi
+	•	Sanal öğrenme
+	•	Teknoloji
+	•	Yazılım
+
+Doğru Cevap: b  MO_101_02_MAKINE_OGRENMESI_NEDIR 
+	•	Makine öğrenmesi fikrinin temeli neye dayanır? 
+	•	Güçlü işlemcileri kullanması
+	•	Güçlü bilgisayarların kullanılması
+	•	Bilgisayarların insanlara benzer şekilde öğrenmesini sağlamaya çalışmaya
+	•	Yüksek internet hızına sahip olunması
+	•	Bilgisayarlara yeni donanımlar eklenmesi
+
+Doğru Cevap: c   MO_101_02_MAKINE_OGRENMESI_NEDIR 
+	•	Seçeneklerden hangisi makine öğrenmesi ile ilgili değildir? 
+	•	Parmak izi okuyan cihaz
+	•	Yüz tanıma sistemi
+	•	Geçmiş satranç maçlarına göre hamle yapan satranç yazılımı
+	•	Araçların özellikleri ve fiyatlarını içeren bir veri setine göre araç fiyat tahmin modeli
+	•	Son yılların hava durumu bilgilerine göre karar veren hava tahmin sistemi
+
+Doğru Cevap: a  MO_101_03_MAKINE_OGRENMESI_NEDIR_FONKSIYONEL_ORNEK 
+	•	  = b0 + b1 * x1 + b2 * x2 + b3 * x3    Yukarıda verilen doğrusal regresyon modeli ile ilgili seçeneklerden hangisi yanlıştır? 
+	•	 tahmin edilen bağımlı değişken değerlerini temsil etmektedir
+	•	x1, x2 ve x3 tahmin için kullanılan bağımsız değişken değerlerini temsil etmektedir
+	•	b1 katsayısı, x1 değişkeninin bağımlı değişken üzerindeki etkisini/ağırlığını ifade eder
+	•	b2 katsayısı, x2 değişkeninin bağımlı değişken üzerindeki etkisini/ağırlığını ifade eder
+	•	x1, x2 ve x3 veriden öğrenilen katsayılardır 
+Doğru Cevap: e  MO_101_03_MAKINE_OGRENMESI_NEDIR_FONKSIYONEL_ORNEK 
+	•	Veriden faydalı bilgi çıkarma sürecine … denir. Boşluğa aşağıdakilerden hangisi gelmelidir?
+
+	•	Makine Öğrenmesi
+	•	Veri Bilimi
+	•	Yapay Zeka
+	•	İstatistik
+	•	Analiz
+
+Doğru Cevap: b
+ MO_101_04_GERCEK_HAYAT_ORNEKLERI 
+	•	Veriden faydalı bilgi çıkarma sürecini yöneten kişiye … denir. Boşluğa aşağıdakilerden hangisi gelmelidir?
+
+	•	Yazılımcı
+	•	Veri Bilimci
+	•	Makine Öğrenmesi Mühendisi
+	•	Büyük Veri Uzmanı
+	•	Programcı 
+Doğru Cevap: b
+ MO_101_04_GERCEK_HAYAT_ORNEKLERI 
+	•	I.  Restoranlarda yemek önerisi II. Sosyal medyada etiket önerisi III. Chatbotlar IV. Mesaj uygulamalarında kelime önerisi V. Otomatik fotoğraf düzenleme uygulaması  Yukarıda verilen örneklerden hangilerinde makine öğrenmesi/yapay zeka kullanılabilir?
+
+	•	I,II,III,V
+	•	I,II,III,IV
+	•	I,II,III,IV,V
+	•	I,II,IV,V
+	•	I,III,IV,V 
+Doğru Cevap: c  MO_101_04_GERCEK_HAYAT_ORNEKLERI
+
+	•	Makine öğrenmesi problemlerinde tahmin etmek için hedeflenen ana değişkeni tahmin etmede kullanılan değişkenlere … denir.  Boşluğa hangisi gelmelidir? 
+	•	Bağımlı değişken
+	•	Girdi değişkenleri
+	•	Hedef değişken
+	•	Çıktı değişkeni
+	•	Yanıt değişken
+
+Doğru Cevap: b  MO_101_03_MAKINE_OGRENMESI_NEDIR_FONKSIYONEL_ORNEK 
+	•	I.  Spam mail engelleme II. Kredi başvurusu değerlendirme III.Paylaşımlarda emoji önerisi IV.Navigasyon uygulaması V. Kredi kartı sahtekarlıkları tespiti  Yukarıda verilen örneklerden hangilerinde makine öğrenmesi/yapay zeka kullanılabilir? 
+	•	I,II,III,V
+	•	I,III,IV,V
+	•	I,II,III,V
+	•	I,II,IV,V
+	•	I,II,III,IV,V 
+Doğru Cevap: e  MO_101_04_GERCEK_HAYAT_ORNEKLERI
+
+	•	Aşağıdakilerden hangisi diğerlerinden farklı bir tanımı ifade eder?
+
+	•	Bağımlı değişken
+	•	Hedef değişken
+	•	Yanıt değişken
+	•	Çıktı değişkeni
+	•	Bağımsız değişken
+
+Doğru Cevap: e  MO_101_05_TEMEL_KAVRAMLAR 
+	•	Makine öğrenmesi problemlerinde tahmin etmek için hedeflenen ana değişkene … denir.  Boşluğa hangisi gelmelidir?
+
+	•	Kategorik değişken
+	•	Nümerik değişken
+	•	Sayısal değişken
+	•	Bağımlı değişken
+	•	Bağımsız değişken 
+Doğru Cevap: d  MO_101_05_TEMEL_KAVRAMLAR 
+	•	Makine öğrenmesi problemlerinde tahmin etmek için hedeflenen ana değişkeni tahmin etmede kullanılan değişkenlere … denir.  Boşluğa hangisi gelmelidir? 
+	•	Bağımlı değişken
+	•	Bağımsız değişken
+	•	Hedef değişken
+	•	Çıktı değişkeni
+	•	Yanıt değişken
+
+Doğru Cevap: b  MO_101_05_TEMEL_KAVRAMLAR 
+	•	Aşağıdakilerden hangisi makine öğrenimi kapsamında bir öğrenme türü değildir?
+
+	•	Gözetimli öğrenme
+	•	Gözetimsiz öğrenme
+	•	Pekiştirmeli öğrenme
+	•	Pekiştirmesiz öğrenme
+	•	Yarı denetimli öğrenme
+
+Doğru Cevap: d  MO_101_06_TEMEL_KAVRAMLAR
+
+	•	Makine öğreniminde ele alınan veri üzerinde bağımlı değişken ve bağımlı değişkeni meydana getiren bağımsız değişkenler bir aradaysa bu öğrenme türüne … denir   Boşluğa hangisi gelmelidir? 
+	•	Pekiştirmeli öğrenme
+	•	Pekiştirmesiz öğrenme
+	•	Gözetimli öğrenme
+	•	Gözetimsiz öğrenme
+	•	Yarı denetimli öğrenme
+
+Doğru Cevap: c  MO_101_06_TEMEL_KAVRAMLAR
+
+	•	Makine öğreniminde ele alınan veri üzerinde yalnızca bağımsız değişkenler varsa başka bir ifadeyle bağımlı değişkenin mevcut olmadığı öğrenme türüne … denir   Boşluğa hangisi gelmelidir?
+
+	•	Gözetimsiz öğrenme
+	•	Pekiştirmesiz öğrenme
+	•	Yarı denetimli öğrenme
+	•	Gözetimli öğrenme
+	•	Pekiştirmeli öğrenme
+
+Doğru Cevap: a  MO_101_06_TEMEL_KAVRAMLAR
+
+	•	Gözetimsiz öğrenme türünde tahmin edilecek bir değişen mevcut olmadığına göre, yapılan işlem nedir?
+
+	•	Yeni bir değişken atanıp, tahmin edilir
+	•	Bağımsız değişkenlerin ortalaması alınır
+	•	Gözlem benzerlikleri üzerinden incelemeler yapılır
+	•	Bağımlı değişken sınıflandırılır
+	•	Bağımlı değişken rastgele belirlenir 
+Doğru Cevap: c  MO_101_06_TEMEL_KAVRAMLAR
+
+	•	Makine öğrenimi modellerinde bağımlı değişken sayısal/sürekli bir değişken ise bu bir … problemidir. Eğer bağımlı değişken kategorik bir değişken ise bu bir … problemidir.  Yukarıdaki boşluklara sırası ile hangi ikili gelmelidir?
+
+	•	Bağımsız değişken - Bağımlı değişken
+	•	Regresyon - Sınıflandırma
+	•	Regresyon - Bağımlı değişken
+	•	Bağımsız değişken - Sınıflandırma
+	•	Sınıflandırma - Regresyon
+
+Doğru Cevap: b  MO_101_06_TEMEL_KAVRAMLAR 
+	•	Bir makine öğrenmesi projesinde kullanılan veri setinde bağımlı değişken 1 ve 0 sayıları ile temsil ediliyor. Buna göre bu problemin türü hangisidir?
+
+	•	Regresyon problemi
+	•	Sayısal tahmin problemi
+	•	Olasılık problemi
+	•	Sınıflandırma problemi
+	•	Yapay sinir ağları problemi
+
+Doğru Cevap: d  MO_101_06_TEMEL_KAVRAMLAR 
+	•	Bir makine öğrenmesi modelini kurarken tüm veri ile model hem eğitilebilir, hem de test edilebilirken, neden çoğunlukla eğitim-test (train-test) şeklinde iki parçaya ayırılır? 
+	•	Modeli daha iyi eğitmek için
+	•	Modeli görmediği verilerle test etmek için
+	•	Modeli daha fazla veri ile kurmak için
+	•	Modele daha az ve öz değişken katmak için
+	•	Hepsi
+
+Doğru Cevap: b  MO_101_06_TEMEL_KAVRAMLAR 
+	•	Makine öğrenmesi modelleri kurarken değişkenlerin bazılarını modele katarken bazılarını katmayız. Diğer bir ifade ile değişken seçimi yaparız. Bunun sebebi nedir?
+
+	•	Zaman kazanmak
+	•	İşlem kolaylığı
+	•	En az değişkenle en fazla açıklanabilirliği yakalamaya çalışmak
+	•	Eğitim seti tahmin hatasını minimuma indirmek
+	•	İş gücünden tasarruf 
+Doğru Cevap: c  MO_101_06_TEMEL_KAVRAMLAR 
+	•	Makine öğrenmesinde geçen ''overfitting'' terimi ne anlamda kullanılır?
+
+	•	Derin öğrenme
+	•	Detaycı öğrenme
+	•	Genelleme ile öğrenme
+	•	Aşırı öğrenme
+	•	Sınıflandırarak öğrenme 
+Doğru Cevap: d  MO_101_06_TEMEL_KAVRAMLAR_2 
+	•	Overfitting problemini aşmak için geliştirilen en önemli çözüm yollarından biri  hangisidir?
+
+	•	Veriyi artırmak
+	•	Bağımlı değişken sayısını artırmak
+	•	Gözetimsiz öğrenme yapmak
+	•	Eğitim ve test hatalarını gözlemleyerek model optimizasyonu sürecini yönetmek
+	•	Gözetimli öğrenme yapmak
+
+Doğru Cevap: d  MO_101_06_TEMEL_KAVRAMLAR_2
+
+	•	Deterministik modellerin aksine stokastik modellerde … bulunur.
+
+	•	Tesadüfi hata
+	•	Katsayı
+	•	Derecelendirme
+	•	Rassallık
+	•	Fonksiyon
+
+Doğru Cevap: a  MO_101_06_TEMEL_KAVRAMLAR_2 
+	•	Aşağıdakilerden hangisi modellerin ürettiği sonuçların doğru değerlendirilmesi adına yapılan Model Doğrulama (Model Validation) işlemlerinden biri değildir?
+
+	•	Holdout (Eğitim-Test ayırımı)
+	•	K-katlı çapraz doğrulama (k-fold cross validation)
+	•	Leave One Out
+	•	Bootstrap
+	•	Grid Validation
+
+Doğru Cevap: e  MO_101_07_MODEL_DOGRULAMA_YONTEMLERI 
+	•	Aşağıdakilerden hangisi Regresyon problemleri için başarı değerlendirme yöntemlerinden biri değildir?
+
+	•	MSE
+	•	Hata Kareler Ortalaması
+	•	RMSE (Hata Kareler Ortalaması Karekökü)
+	•	MAE (Ortalama mutlak hata)
+	•	Güven Aralığı
+
+Doğru Cevap: e  MO_101_08_MODEL_BASARI_DEGERLENDIRME_YONTEMLERI
+
+	•	Aşağıdakilerden hangisi Sınıflandırma problemleri için başarı değerlendirme yöntemlerinden biridir?
+
+	•	ROC Eğrisi
+	•	Lojistik Regresyon
+	•	MSE
+	•	RMSE
+	•	MAE
+
+Doğru Cevap: a  MO_101_08_MODEL_BASARI_DEGERLENDIRME_YONTEMLERI 
+	•	Model değerlendirilirken hesaplanan RMSE (Hata Kareler Ortalaması Karekökü) ne kadar … ise model başarısı o kadar …  Boşluklara sırası ile hangi ikili gelmelidir? 
+	•	büyük - yüksektir
+	•	küçük - yüksektir
+	•	büyük - düşüktür
+	•	küçük - düşüktür
+	•	model ortalamasına yakın - yüksektir 
+Doğru Cevap: b  MO_101_08_MODEL_BASARI_DEGERLENDIRME_YONTEMLERI 
+	•	Modeli kurmak için kullanılan veri seti üzerinden elde ettiğimiz hataya … , kurulan modeli test etmek amacıyla kullandığımız veri seti için oluşan hataya … diyoruz.  Boşluklara sırası ile hangi ikili gelmelidir?
+
+	•	eğitim - test
+	•	Test - eğitim
+	•	MSE - test
+	•	test - MSE
+	•	eğitim - toplam
+
+Doğru Cevap: a  MO_101_09_YANLILIK_VARYANS 
+	•	 … , … yanlı ve kötü bir tahmincisidir.  Boşluklara sırası ile hangi ikili gelmelidir?
+
+	•	Varyans - Kovaryansın
+	•	MSE - RMSE’nin
+	•	Regresyon - Sınıflandırmanın
+	•	Eğitim hatası - Test hatası
+	•	Underfitting - Overfitting
+
+Doğru Cevap: d  MO_101_09_YANLILIK_VARYANS 
+	•	Model seçimleri, model parametre seçimleri, hiper parametre optimizasyonu ve parametre tuning işlemlerinin ortak amacı nedir?
+
+	•	Model kurma süresini azaltmak
+	•	Modelin bilgisayar işlemcisine olan yükü azaltmak
+	•	Model tahmin gücünü artırmak
+	•	Hata kareler ortalamasının karekökünü azaltmak
+	•	Modelleme sürecinde zaman tasarrufu sağlamak 
+Doğru Cevap: c  MO_101_10_MODEL_TUNING   
+  
+
+

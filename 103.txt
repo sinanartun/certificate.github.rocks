@@ -1,0 +1,264 @@
+
+	•	Aşağıdakilerden hangisi doğrusal olmayan regresyon modellerinden birisi değildir? 
+	•	K-En Yakın Komşu
+	•	Doğrusal Olmayan Destek Vektör Regresyonu
+	•	Ridge Regresyon
+	•	Yapay Sinir Ağları
+	•	CART
+
+Doğru Cevap: c  MO_301_01_GIRIS 
+	•	Aşağıdakilerden hangisi doğrusal olmayan regresyon modellerinden birisi değildir? 
+	•	Random Forests
+	•	Gradient Boosting Machines
+	•	XGBoost
+	•	ElasticNet Regresyon
+	•	LightGBM
+
+Doğru Cevap: d  MO_301_01_GIRIS  
+
+    •  K-En Yakın Komşu yönteminin temel fikri aşağıdakilerden hangisidir? 
+	•	Gözlemlerin kategorik değişken olup olmamasına göre sınıflandırma yapılır
+	•	Gözlemler küçükten büyüğe sıralanarak gruplandırılır
+	•	Gözlemlerin birbirine olan benzerlikleri üzerinden tahmin yapılır
+	•	Aykırı gözlemlerden uzaklığa göre tahmin yapılır
+	•	Merkezden standart sapma kadar olan bölge üzerinde benzerlik kurulur
+
+Doğru Cevap: c  MO_301_02_K_EN_YAKIN_KOMSU 
+	•	K-En Yakın Komşu yöntemindeki ''K'' neyi ifade eder? 
+	•	Cross-Validation işleminde veri setinin kaç parçaya ayrılacağını belirtir
+	•	Cross-Validation işleminin kaç katlı olacağını belirtir
+	•	Tahmin edilecek değerin belirli bir mesafe civarında bulunan gözlem sayısını ifade eder
+	•	Tahmin etme işlemi için göz önünde bulundurulacak komşu sayısını ifade eder
+	•	Tahmin edilecek değerin ona en yakın k. (k’nıncı) gözlemin seçileceğini ifade eder 
+Doğru Cevap: d  MO_301_02_K_EN_YAKIN_KOMSU 
+	•	I.   from sklearn.neighbors import KNeighborsRegressor II.  knn_model = KNeighborsRegressor() III. knn_model.fit(X_train, y_train) IV. knn_model.n_neighbors V.  knn_model.predict(X_test)  Yukarıdaki numaralandırılmış kodların her biri Jupiter Notebook üzerinde ayrı hücrelerde çalıştırmıştır. Hücre çıktıları ile ilgili seçeneklerden hangisi yanlıştır?
+
+	•	I. adımda K-En Yakın Komşu Regresyon fonksiyonu çalışmaya dahil edilmiştir
+	•	II. adımda K-En Yakın Komşu model nesnesi oluşturulmuştur
+	•	III. adımda model eğitme işlemi yapılmıştır
+	•	IV. adımda komşuluk sayısı belirlenmiştir
+	•	V. adımda bir model kullanılarak tahmin işlemi yapılmıştır
+
+Doğru Cevap: d  MO_301_03_K_EN_YAKIN_KOMSU_MODEL_TAHMIN 
+	•	model = KNeighborsRegressor() model.fit(X, y)
+ Yukarıda verilen kod ile eşdeğer olan kod aşağıdakilerden hangisidir? 
+	•	model = KNeighborsRegressor(fit(X, y))
+	•	model = KNeighborsRegressor().apply(fit(X, y))
+	•	model = KNeighborsRegressor().transform(fit(X, y))
+	•	model = KNeighborsRegressor().fit(X, y)
+	•	KNeighborsRegressor() = model.fit(X, y) 
+Doğru Cevap: d
+ MO_301_04_K_EN_YAKIN_KOMSU_MODEL_TUNING 
+	•	GridSearchCV fonksiyonunu kullama amacımız nedir?
+
+	•	Hızlı olması
+	•	Parametre seçme işlemindeki başarısı
+	•	Farklı donanımsal teknoloji kullanması
+	•	Birçok hiper parametre kombinasyonunu kolayca deneme imkanı vermesi
+	•	Kat sayısını kullanıcının belirleyebilmesi 
+Doğru Cevap: d  MO_301_04_K_EN_YAKIN_KOMSU_MODEL_TUNING
+
+	•	I.   Sürekli değişken tahmin için kullanılır II.  Güçlü ve esnek bir modelleme tekniğidir III. Kısaltılmışı SVR’dır IV. Sınıflandırma problemleri için de kullanılabilir V.  Aykırı gözlemlere karşı dirençlidir  Destek Vektör Regresyonu ile ilgili verilen bilgilerden hangileri doğrudur? 
+	•	I,II,III
+	•	I,III,V
+	•	I,III,IV
+	•	I,II,III,IV,V
+	•	II,III,V 
+Doğru Cevap: d  MO_301_05_DESTEK_VEKTOR_REGRESYONU 
+	•	… modelleme yönteminin amacı, bir marjın aralığına maksimum noktayı en küçük hata ile alabilecek bir doğru ya da eğri bulmaktır.  Verilen bilgi içinde boş bırakılan yere hangisi gelmelidir? 
+	•	K-en yakın komşu
+	•	Destek Vektör Regresyonu
+	•	XGBoost
+	•	LightGBM
+	•	Gradient Boosting Machines 
+Doğru Cevap: b  MO_301_05_DESTEK_VEKTOR_REGRESYONU
+
+	•	Kod:   svr_model Çıktı:  SVR(C=1.0, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma='auto_deprecated', kernel='linear', max_iter=-1, shrinking=True,
+tol=0.001, verbose=False)  Yukarıda bir modelin parametre bilgileri verilmiştir. Buna göre bu modeli doğrusal olmayacak şekilde kurmak için hangi argümanı değiştirmemiz gerekir?  
+	•	 gamma
+	•	 kernel
+	•	 max_iter
+	•	 shrinking
+	•	 verbose
+
+Doğru Cevap: b  MO_301_06_DESTEK_VEKTOR_REGRESYONU_MODEL_TAHMIN 
+	•	SVR(C=1.0, cache_size=200, coef0=0.0, degree=3, epsilon=0.1, gamma='auto_deprecated', kernel='linear', max_iter=-1, shrinking=True,
+tol=0.001, verbose=False)  Yukarıda bir SVR model nesnesi çıktısı verilmiştir. Bu modelleme için ceza parametresi aşağıdakilerden hangisidir? 
+	•	 C
+	•	 cache_size
+	•	 coef0
+	•	 gamma
+	•	 verbose  
+Doğru Cevap: a  MO_301_07_DESTEK_VEKTOR_REGRESYONU_MODEL_TUNING 
+	•	GridSearchCV fonksiyonunun "verbose" argümanı 2’ye eşitlendiğinde fonksiyon nasıl davranır? 
+	•	İşlemciyi daha az kullanır
+	•	İşlemciyi maksimum performansla kullanır
+	•	Kullandığı ram miktarını minimum tutar
+	•	Yapılan işlemlerle ilgili bilgi verir
+	•	Daha hızlı çalışır
+
+Doğru Cevap: d  MO_301_07_DESTEK_VEKTOR_REGRESYONU_MODEL_TUNING 
+	•	GridSearchCV fonksiyonunun n_jobs argümanı "-1"e eşitlendiğinde fonksiyon nasıl davranır?
+
+	•	 İşlemciyi daha az kullanır
+	•	 İşlemcileri maksimum performansla kullanır
+	•	 Kullandığı Ram miktarını minimum tutar
+	•	 İşlem yapıldığı sırada ayrıntılı bilgi verir
+	•	 Daha hızlı çalışır
+
+Doğru Cevap: b  MO_301_07_DESTEK_VEKTOR_REGRESYONU_MODEL_TUNING
+
+	•	I.   Sınıflandırma ve regresyon için kullanılabilir II.  Kuvvetli bir makine öğrenmesi algoritmasıdır III. İnsan beyninin bilgi işleme şeklini referans almıştır IV. Hatayı minimize eden ağırlıkları bulmayı amaçlar  Yukarıda verilen bilgilerden hangileri Yapay sinir ağları modellemesinin özelliklerindendir? 
+	•	I,II,III
+	•	I,III,IV
+	•	II,III,IV
+	•	I,II,III,IV
+	•	III,IV
+
+Doğru Cevap: d  MO_301_08_YAPAY_SINIR_AGLARI
+
+	•	Python sklearn kütüphanesini kullanarak Yapay Sinir Ağlarını kullanırken genelde veri setine standardizasyon uygulanır, bunun sebebi nedir?
+
+	•	İlgili algoritma homojen veri seti üzerinde daha iyi sonuç verdiği için
+	•	İlgili algoritma standartlaştırılmamış bir veriyi işleyemediği için
+	•	İşlemi daha hızlı yapabilmek için
+	•	İşlemci kullanımından tasarruf edilmesi için
+	•	Tüm algoritmalar için standartlaştırma uygulanır
+
+Doğru Cevap: a  MO_301_09_YAPAY_SINIR_AGLARI_MODEL_TAHMIN
+
+	•	mlp_params = {"alpha": [0.1, 0.01, 0.02, 0.001, 0.0001],               "hidden_layer_sizes": [(10,12), (5,5,10), (25,30,40)]}
+ Yukarıda Yapay Sinir Ağı modellemesi için GridSearchCV fonksiyonu ile kullanılmak üzere bir hiper parametre seti oluşturulmuştur. Bu bilgiye göre algoritma üzerinde denenecek olan gizli katman sayıları sırasıyla hangisidir?
+
+	•	5-5-10
+	•	10-12
+	•	25-30-40
+	•	2,3,3
+	•	1,100,200,1000,10000 
+Doğru Cevap: d  MO_301_10_YAPAY_SINIR_AGLARI_MODEL_TUNING
+
+	•	 CART adı ile kullanılan algoritmanın açık adı ve anlamı hangisidir?
+
+	•	Classification and Regression Tree - Sınıflandırma ve Regresyon Ağacı
+	•	Class and Regression Tree - Sınıflandırma ve Regresyon Ağacı
+	•	Classification and Remarkeble Trees - Sınıflandırma ve Tekrar İşaretlenebilen Ağaçlar
+	•	Class and Regresor Trees - Sınıflandırma ve Regresyon İşleme Ağaçları
+	•	Classification and Regresor Trees - Sınıflandırma ve Regresyon Ağaçları
+
+Doğru Cevap: a  MO_301_11_CART 
+	•	 cart_model = DecisionTreeRegressor(max_leaf_nodes = 15)  Yukarıda bir CART model nesnesi kodu çalıştırılmıştır. Belirtilen model hiper parametresi ile ayarlanan şey nedir? (İlgili kütüphanelerin yüklendiğini varsayınız)
+
+	•	Maksimum adım sayısı
+	•	Maksimum ayrıştırıcı sayısı
+	•	Maksimum yaprak sayısı
+	•	Adım sayısı
+	•	Yaprak sayısı
+
+Doğru Cevap: c  MO_301_12_CART_MODEL_TAHMIN 
+	•	Aşağıdakilerden hangisi CART modelinin hiper parametrelerinden biri değildir? 
+	•	max_depth
+	•	min_samples_leaf
+	•	min_samples_split
+	•	alpha
+	•	min_impurity_decrease
+
+Doğru Cevap: d  MO_301_13_CART_MODEL_TUNING 
+	•	 Bootstrap tekniğinin tanımı hangisidir?
+
+	•	Rastgeleliğe dayalı sıralama işlemi
+	•	Rastgeleliğe dayalı seçme işlemi
+	•	Yerine koymalı sıralama işlemi
+	•	Yerine koymalı seçme işlemi
+	•	Seçme ve sıralama işlemi 
+Doğru Cevap: d  MO_301_14_RANDOM_FORESTS 
+	•	rf_model = RandomForestRegressor(random_state = 42).fit(X_train, y_train)  Sklearn kütüphanesine ait Random Forest model nesnesi eğitilirken kullanılan random_state parametresi ne amaçla kullanılır?
+
+	•	Rastgeleliği azaltmak
+	•	Her çalıştırıldığında aynı veriyi tekrar yazmamak
+	•	Gereksiz tekrardan kaçınmak
+	•	Her çalıştırıldığında aynı sonuçların gelmesini sağlamak için
+	•	Her çalıştırıldığında aynı parametreleri kullanmak 
+Doğru Cevap: d  MO_301_15_RANDOM_FORESTS_MODEL_TAHMIN 
+	•	… : AdaBoost’un sınıflandırma ve regresyon problemlerine kolayca uyarlanabilen genelleştirilmiş versiyonudur.  Yukarıda boş bırakılan yere hangisi gelmelidir?
+
+	•	CART
+	•	Random Forest
+	•	Gradient Boosting Machines
+	•	Yapay Sinir Ağları
+	•	Destek Vektor Regresyonu
+
+Doğru Cevap: c  MO_301_17_GRADIENT_BOOSTING_MACHINES
+
+	•	Modelleme aşamalarında ilkel test hatası diye isimlendirilen şey nedir? 
+	•	Tune edilmemiş modelin test veri setine ait tahmin hatası
+	•	Veriyi ayırmadan kurulan modelin tahmin hatası
+	•	Parametrelerin bir kısmı optimize edilen modelin tahmin hatası
+	•	Model nesnesini ayrıca isimlendirilme yapılmadan önceki tahmin hatası
+	•	Veri setinin train bölümüne ait tahmin hatası
+
+Doğru Cevap: a  MO_301_18_GRADIENT_BOOSTING_MACHINES_MODEL_TAHMIN 
+	•	I.   R, Python, Hadoop ve Scala ile kullanılabilir II.  Hızlıdır, ağaca dayalı bir modeldir III. Tahmin başarısı yüksektir IV. Bir çok uluslararası yarışmada kendini kanıtlamıştır V.  Ölçeklenebilirdir
+ Yukarıda özellikleri verilen model hangisidir? 
+	•	CART
+	•	Destek Vektor Regresyonu
+	•	Doğrusal Regresyon
+	•	K-en yakın komşu
+	•	XGBoost
+
+Doğru Cevap: e  MO_301_20_XGBOOST 
+	•	XGBoost model kütüphanesini çağırmadan önce notebook aracılığı ile ilgili paketi kurmamızı sağlayan kod hangisidir?
+
+	•	pip install xgboost
+	•	!pip install xgboost
+	•	import xgboost
+	•	from xgboost import XGBRegressor
+	•	import xgboost as XGBRegressor
+
+Doğru Cevap: b  MO_301_21_XGBOOST_MODEL_TAHMIN
+
+	•	XGBoost modelinde fit edilecek ağaç sayısını ifade eden hiper parametre aşağıdakilerden hangisidir?
+
+	•	learning_rate
+	•	n_estimators
+	•	colsample_bytree
+	•	booster
+	•	colsample_bylevel
+
+Doğru Cevap: a  MO_301_22_XGBOOST_MODEL_TUNING 
+	•	 I.  LightGBM  II. Gradient Boosting Machines III. XGBoost  Verilen modellerin hangisi ya da hangileri ağaca dayalı yöntemlerdir? 
+	•	I,II
+	•	I,II
+	•	III
+	•	I,II,III
+	•	II 
+Doğru Cevap: d  MO_301_23_LIGHTGBM 
+	•	 mean_squared_error(A, B)
+ Yukarıda verilen fonksiyonun yaptığı işlem hangisidir? 
+	•	A ve B veri setleri arasındaki farklı gözlem sayısını verir
+	•	A ve B veri setleri arasında karşılıklı her gözlemin farklını hesaplar
+	•	A ve B veri setleri arasında karşılıklı her gözlemin farklını hesaplayıp bu sayıların karelerini alır
+	•	A ve B veri setleri arasında karşılıklı her gözlemin farklını hesaplayıp, bu sayıların karelerini alıp, toplar
+	•	A ve B veri setleri arasında karşılıklı her gözlemin farklını hesaplayıp, bu sayıların karelerini alıp, toplar ve sonucun karekökünü hesaplar
+
+Doğru Cevap: e  MO_301_24_LIGHTGBM_MODEL_TAHMIN 
+	•	Aşağıdaki modellerden hangisi Yandex tarafından geliştirilmiştir?
+
+	•	XGBoost
+	•	Gradient Boosting Machines
+	•	CatBoost
+	•	CART
+	•	Yapay Sinir Ağları
+
+Doğru Cevap: c  MO_301_26_CATBOOST 
+	•	 model.best_params_
+
+Yukarıda verilen kod parçacığında yer alan "best_params_" ifadesi hangi bilgiyi taşır? 
+	•	Model tune edilmeden önce denenecek olan parametreler kümesi
+	•	Modelin en başarılı tahmin yaptığı gözlemler kümesi
+	•	Modelin en hızlı kurulmasını sağlayan parametre kümesi
+	•	Model tahmin başarısının en yüksek olduğu hiper parametre kombinasyonu
+	•	Modelin en başarılı olan parametrelere sahip olup olmadığı 
+Doğru Cevap: d     
+  
+
+

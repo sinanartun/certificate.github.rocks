@@ -1,0 +1,1 @@
+{"version":3,"sources":["autolink/index.js"],"names":["require"],"mappings":"AAMAA,QAAQ","file":"index.js","sourcesContent":["// Exports the \"autolink\" plugin for usage with module loaders\n// Usage:\n//   CommonJS:\n//     require('tinymce/plugins/autolink')\n//   ES2015:\n//     import 'tinymce/plugins/autolink'\nrequire('./plugin.js');"]}

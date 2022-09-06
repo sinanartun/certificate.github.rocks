@@ -1,0 +1,248 @@
+/* Dark mod  start */
+
+
+div#kt_header {
+    border-bottom: 1px solid #f2f3f8;
+}
+
+div#kt_header_mobile {
+    border-bottom: 1px solid #f2f3f8;
+}
+
+div#kt_footer {
+    background: #1e1e2d;
+}
+
+div#kt_footer > div > div {
+    color: #fff;
+}
+
+div#kt_footer > div > div > a {
+    color: #fff;
+}
+
+
+
+
+div#kt_aside{
+    border-right: 2px solid #f2f3f8;
+}
+
+div.col-md-12 > span.select2-container > span.selection > span.select2-selection--single > span.select2-selection__rendered{
+    font-weight: bold;
+    color: #00bbff;
+}
+
+
+/*div#kt_content > div.kt-container > div.row  {*/
+/*    color: #ffffff;*/
+/*}*/
+
+
+div#kt_wizard_v1 > div.kt-grid__item  > div.kt-portlet > div.kt-portlet__body > div.row > div#section_div > h5.kt-portlet__head-title {
+    color: #ffffff;
+}
+
+div.row > div#test_div > div > div.answer_count > span.answer_count {
+    color: #ffffff;
+}
+
+div.row > div#test_div > div > div.col-md-12 > div.kt-portlet__head-label > h4.test_title > span {
+    color: #ffffff;
+}
+
+div#kt_content > div.kt-container > div.row > div.col-md-dp-5-1 > div > div.kt-portlet__body > div#kt_wizard_v1 > div.kt-grid__item > div.kt-portlet {
+    background-color: #1e1e2d;
+}
+
+div#section_div > div > input#test_name {
+    background-color: #2b2b43;
+    color: white;
+}
+
+div#section_div > div > input#test_name::placeholder {
+    background-color: #2b2b43;
+    color: #cdcdcd;
+}
+
+div#kt_content > div.kt-container > div.row > div.col-md-dp-5-1 > div > div.kt-portlet__body > div#kt_wizard_v1 > div.kt-grid__item > div.kt-portlet > div.kt-portlet__head > div.kt-portlet__head-label > h3.kt-portlet__head-title {
+    color: #ffffff;
+}
+
+div#kt_content > div.kt-container > div.row > div.col-md-dp-5-1 > div > div.kt-portlet__body > div#kt_wizard_v1 > div.kt-grid__item > div.kt-portlet > div.kt-portlet__body > div.row > div#section_div > div.row > div > span.kt-pull-right {
+    color: #ffffff!important;
+}
+
+div.ql-toolbar > span.ql-formats > span.ql-header > span.ql-picker-label {
+    color: #ffffff;
+}
+
+div.ql-toolbar > span.ql-formats > span.ql-header > span.ql-picker-label > svg > polygon{
+    stroke: #ffffff;
+}
+
+div.ql-toolbar > span.ql-formats > button > svg > path {
+    stroke: #ffffff;
+}
+
+div.ql-toolbar > span.ql-formats > button > svg > line {
+    stroke: #ffffff;
+}
+
+div.ql-toolbar > span.ql-formats > button > svg > rect {
+    stroke: #ffffff;
+}
+
+div.ql-toolbar > span.ql-formats > button > svg > polyline {
+    stroke: #ffffff;
+}
+
+div.ql-container {
+    background-color: #1b1b24;
+}
+
+div.ql-container > div.ql-editor {
+    color: white!important;
+}
+
+div.ql-container > div.ql-editor:before {
+    color: #cdcdcd;
+}
+
+
+
+div.col-md-12 > span.select2-container--default > span.selection > span.select2-selection--single {
+    background-color: #1e1e2d;
+}
+
+
+
+div.col-md-12 > span.select2-container--default > span.selection > span.select2-selection--single > span.select2-selection__rendered > span.select2-selection__placeholder {
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+/*div.col-md-12 > span.select2-container--default > span.selection > span.select2-selection--single > span.select2-selection__rendered  {*/
+/*    color: #00bbff!important;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*span.select2-container > span.select2-dropdown {*/
+/*    background-color: #f5f5f5;*/
+/*}*/
+
+/*span.select2-container > span.select2-dropdown > span.select2-search {*/
+/*    background-color: #1e1e2d;*/
+/*    color: #FFFFFF;*/
+/*}*/
+
+/*span.select2-container > span.select2-dropdown > span.select2-results {*/
+/*    background-color: #1e1e2d;*/
+/*    color: #FFFFFF;*/
+/*}*/
+
+/*span.select2-container > span.select2-dropdown > span.select2-results > ul.select2-results__options > li:hover{*/
+/*    background-color: #32324b !important;*/
+/*    color: #00bbff!important;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.select2-results__option--highlighted {*/
+/*    background:none!important;*/
+/*    color: #ffffff!important;*/
+/*}*/
+/*.select2-results__option[aria-selected=true] {*/
+/*    background:none!important;*/
+/*    color: #ffffff!important;*/
+/*}*/
+
+
+
+
+div.row > div#test_div > div > div.kt-portlet__head > div.kt-pt20 > div >  span.kt-pull-right {
+    color: #ffffff;
+}
+
+div.row > div#test_div > div > div.kt-portlet__head > div.kt-pt20 > span {
+    font-size: 16px;
+}
+
+div#kt_content > div.kt-container > div.row > div.col-md-dp-7-1 > div.kt-portlet__body > div.kt-portlet {
+    background-color: #1e1e2d;
+}
+
+div#kt_content > div.kt-container > div.row > div.col-md-dp-7-1 > div.kt-portlet__body > div.kt-portlet > div.kt-portlet__head > div.kt-portlet__head-label > h3.kt-portlet__head-title {
+    color: #ffffff;
+}
+
+div#test_div > div > div.answer_count > span.answer_count > span > button {
+    color: #FFFFFF;
+}
+
+div#test_div > div > div.answer_count  {
+    padding-bottom: 5px;
+}
+
+div#test_div > div > div.kt-pt20  {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+div#test_div > div > div.kt-pt20 > div.kt-portlet__head-label  {
+    width: -webkit-fill-available;
+}
+
+div#test_div > div > div.row > div.kt-portlet__head-label > div.kt-portlet__head-title > span.test_dark_style_span > p {
+    color: #FFFFFF!important;
+}
+
+div#test_div > div > div.kt-portlet__head > div.questions_div > div.col-1 > span.kt-pull-left {
+    color: #FFFFFF!important;
+}
+
+div#test_div > div > div.kt-portlet__head > div.questions_div > span.col-11 > p {
+    color: #FFFFFF;
+}
+
+div#test_div > div > div.kt-pt40 > div.kt-pt20 > span {
+    color: #00bbff !important;
+    font-weight: bold!important;
+}
+
+div.row > div#test_div > div > div.kt-pt20 > div.kt-portlet__head-label > div.kt-portlet__head-title > span {
+    color: #FFFFFF!important;
+}
+
+div.row > div#test_div > div > div.kt-portlet__head > div.questions_div > span.col-11 {
+    color: #FFFFFF!important;
+}
+
+
+
+
+div#kt_header > div.kt-header__topbar > div.kt-header__topbar-item > span.kt-header__topbar-icon svg g [fill],
+div#kt_header > div.kt-header__topbar > div.kt-header__topbar-item > div.kt-header__topbar-wrapper > span.kt-header__topbar-icon svg g [fill],
+div#kt_header > div.kt-header__topbar > div.kt-header__topbar-item > a.kt-header__topbar-wrapper > span.kt-header__topbar-icon svg g [fill] {
+    fill:  #ffffff;
+}
+
+div#kt_header > div.kt-header__topbar > div.kt-header__topbar-item > div.kt-header__topbar-wrapper > span.kt-header__topbar-icon > span.kt-pulse__ring {
+    border-color: #FFFFFF;
+}
+
+div#kt_header > div.kt-header__topbar > div.kt-header__topbar-item > div.kt-header__topbar-wrapper > div.kt-header__topbar-user > span.kt-header__topbar-welcome, span.kt-header__topbar-username {
+    color: #FFFFFF!important;
+}
+
+
+
+
+
+/*.kt-header .kt-header__topbar .kt-header__topbar-item .kt-header__topbar-icon svg g [fill] {*/
+/*    fill: #6e7899;*/
+/*}*/
+
+
+
+/* Dark mod  end */
